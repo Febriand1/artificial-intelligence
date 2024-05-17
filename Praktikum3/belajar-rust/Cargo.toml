@@ -1,0 +1,51 @@
+# mendefinisikan metadata dasar untuk proyek
+[package] 
+name = "belajar-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# mendefinisikan dependensi proyek Anda
+[dependencies]
+
+# mendefinisikan program biner (binary) yang akan dibangun dari proyek Anda
+[[bin]]
+name = "ownership"
+path = "src/rust2/ownership/ownership.rs"
+
+[[bin]]
+name = "reference"
+path = "src/rust2/reference/reference.rs"
+
+[[bin]]
+name = "borrowing"
+path = "src/rust2/borrowing/borrowing.rs"
+
+[[bin]]
+name = "mutable"
+path = "src/rust2/mutable/mutable.rs"
+
+[[bin]]
+name = "clone"
+path = "src/rust2/clone/clone.rs"
+
+[[bin]]
+name = "dangling"
+path = "src/rust2/dangling/dangling.rs"
+
+[[bin]]
+name = "copy"
+path = "src/rust2/copy/copy.rs"
+
+[[bin]]
+name = "scope"
+path = "src/rust2/scope/scope.rs"
+
+[[bin]]
+name = "slice"
+path = "src/rust2/slice/slice.rs"
+
+[[bin]]
+name = "main"
+path = "src/rust3/main.rs"

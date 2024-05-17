@@ -1,0 +1,48 @@
+[package]
+name = "learn-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "h2"
+path = "src/hours2/h2.rs"
+
+[[bin]]
+name = "h3"
+path = "src/hours3/h3.rs"
+
+[[bin]]
+name = "h4"
+path = "src/hours4/h4.rs"
+
+[[bin]]
+name = "h5"
+path = "src/hours5/h5.rs"
+
+[[bin]]
+name = "h6"
+path = "src/hours6/h6.rs"
+
+[[bin]]
+name = "prime"
+path = "src/hours6/prime.rs"
+
+[[bin]]
+name = "h7"
+path = "src/hours7/h7.rs"
+
+[[bin]]
+name = "h8"
+path = "src/hours8/h8.rs"
+
+[[bin]]
+name = "a1"
+path = "src/appendix1/a1.rs"
+
+[[bin]]
+name = "a2"
+path = "src/appendix2/a2.rs"
